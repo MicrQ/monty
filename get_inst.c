@@ -9,7 +9,7 @@ void get_inst(void)
 	int i = 0;
 	instruction_t inst_s[] = {
 		{"pall", &pall}, {"pint", &pint}, {"pop", &pop}, {"swap", &swap},
-		{"push", &push}, {"add", &add}, {"nop", &nop},
+		{"push", &push}, {"add", &add}, {"nop", &nop}, {"sub", &sub},
 		{NULL, NULL}
 	};
 
