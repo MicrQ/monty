@@ -93,7 +93,7 @@ void swap(stack_t **stk, unsigned int lineNo);
 void add(stack_t **stk, unsigned int lineNo);
 void nop(stack_t **stk, unsigned int lineNo);
 void sub(stack_t **stk, unsigned int lineNo);
-
+void divv(stack_t **stk, unsigned int lineNo);
 
 
 
