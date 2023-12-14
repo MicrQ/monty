@@ -91,6 +91,7 @@ void pop(stack_t **stk, unsigned int lineNo);
 void delNode(void);
 void swap(stack_t **stk, unsigned int lineNo);
 void add(stack_t **stk, unsigned int lineNo);
+void nop(stack_t **stk, unsigned int lineNo);
 
 
 
