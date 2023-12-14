@@ -14,7 +14,7 @@ void divv(stack_t **stk, unsigned int lineNo)
 	(void) stk;
 	if (opcodeFile->stk_len <= 1)
 	{
-		dprintf(2, "L%d: can't div, stack too short", lineNo);
+		dprintf(2, "L%d: can't div, stack too short\n", lineNo);
 		argsFree();
 		exit(EXIT_FAILURE);
 	}
