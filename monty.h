@@ -87,6 +87,8 @@ void argsFree(void);
 void push(stack_t **stk, unsigned int lineNo);
 void pall(stack_t **stk, unsigned int lineNo);
 void pint(stack_t **stk, unsigned int lineNo);
+void pop(stack_t **stk, unsigned int lineNo);
+void delNode(void);
 
 
 
