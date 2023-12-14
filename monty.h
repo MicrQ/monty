@@ -89,6 +89,7 @@ void pall(stack_t **stk, unsigned int lineNo);
 void pint(stack_t **stk, unsigned int lineNo);
 void pop(stack_t **stk, unsigned int lineNo);
 void delNode(void);
+void swap(stack_t **stk, unsigned int lineNo);
 
 
 
