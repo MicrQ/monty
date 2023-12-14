@@ -78,13 +78,15 @@ void opcode_token(void);
 void get_inst(void);
 void unknown_inst(void);
 void close_files(void);
-void push(stack_t **stk, unsigned int lineNo);
-void pall(stack_t **stk, unsigned int lineNo);
 int isNum(char *s);
 void freeSTK(stack_t *h);
 void freeH(void);
 void execute_inst(void);
 void argsFree(void);
+
+void push(stack_t **stk, unsigned int lineNo);
+void pall(stack_t **stk, unsigned int lineNo);
+void pint(stack_t **stk, unsigned int lineNo);
 
 
 

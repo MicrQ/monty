@@ -8,7 +8,7 @@ void get_inst(void)
 {
 	int i = 0;
 	instruction_t inst_s[] = {
-		{"pall", &pall},
+		{"pall", &pall}, {"pint", &pint},
 		{"push", &push},
 		{NULL, NULL}
 	};
