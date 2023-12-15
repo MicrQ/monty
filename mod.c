@@ -9,8 +9,8 @@ void mod(stack_t **stk, unsigned int lineNo)
 {
 	stack_t *hold1, *hold2;
 
-	(void) stack;
-	if (arguments->stack_length <= 1)
+	(void) stk;
+	if (opcodeFile->stk_len <= 1)
 	{
 		dprintf(2, "L%d: can't mod, stack too short\n", lineNo);
 		argsFree();
