@@ -17,12 +17,14 @@ void get_inst(void)
 
 	if (opcodeFile->NoOfWords == 0)
 		return;
-	/*
-	*if (opcodeFile->words[0][0] == '#')
-	*{
-	*
-	*}
-	*/
+	
+	if (opcodeFile->words[0][0] == '#')
+	{
+		opcodeFile->inst->opcode = "nop";
+		opcodeFile->inst->f = nop;
+		return;
+	}
+
 	for (; inst_s[i].opcode != NULL; i++)
 	{
 		if (strcmp(inst_s[i].opcode, opcodeFile->words[0]) == 0)
