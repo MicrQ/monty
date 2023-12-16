@@ -97,6 +97,7 @@ void divv(stack_t **stk, unsigned int lineNo);
 void mul(stack_t **stk, unsigned int lineNo);
 void mod(stack_t **stk, unsigned int lineNo);
 void pchar(stack_t **stk, unsigned int lineNo);
+void pstr(stack_t **stk, unsigned int lineNo);
 
 
 
