@@ -22,7 +22,7 @@ void pchar(stack_t **stk, unsigned int lineNo)
 
 	if (hold->n < 0 || hold->n > 127)
 	{
-		dprintf(2, "L%d: can't pchar, value put of range\n", lineNo);
+		dprintf(2, "L%d: can't pchar, value out of range\n", lineNo);
 		argsFree();
 		exit(EXIT_FAILURE);
 	}
