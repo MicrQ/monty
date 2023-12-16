@@ -100,6 +100,8 @@ void pchar(stack_t **stk, unsigned int lineNo);
 void pstr(stack_t **stk, unsigned int lineNo);
 void rotl(stack_t **stk, unsigned int lineNO);
 void rotr(stack_t **stk, unsigned int lineNo);
+void stack(stack_t **stk, unsigned int lineNo);
+void queue(stack_t **stk, unsigned int lineNo);
 
 
 

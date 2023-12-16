@@ -11,7 +11,8 @@ void get_inst(void)
 		{"pall", &pall}, {"pint", &pint}, {"pop", &pop}, {"swap", &swap},
 		{"push", &push}, {"add", &add}, {"nop", &nop}, {"sub", &sub},
 		{"div", &divv}, {"mul", &mul}, {"mod", &mod}, {"pchar", &pchar},
-		{"pstr", &pstr}, {"rotl", &rotl}, {"rotr", &rotr},
+		{"pstr", &pstr}, {"rotl", &rotl}, {"rotr", &rotr}, {"stack", &stack},
+		{"queue", &queue},
 		{NULL, NULL}
 	};
 
